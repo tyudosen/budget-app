@@ -1,7 +1,7 @@
 {
   "name": "expensify",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "/server/server.js",
   "repository": "git@github.com:tyudosen/budget-app.git",
   "license": "MIT",
   "scripts": {
