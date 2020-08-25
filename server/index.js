@@ -8,9 +8,9 @@ const app = express();
 app.use(express.static(publicPath));
 
 app.get("*", (req, res) => {
-  res.send("Hello World");
+  res.send("hello World");
 });
 
 app.listen(port, () => {
-  console.log("Listening ");
+  console.log("listening");
 });
