@@ -5,7 +5,8 @@
   "repository": "git@github.com:tyudosen/budget-app.git",
   "license": "MIT",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
   },
   "dependencies": {
     "express": "^4.17.1"
